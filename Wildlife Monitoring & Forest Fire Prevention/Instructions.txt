@@ -1,0 +1,25 @@
+Running Instructions
+Step 1: Compile and Run the C Program
+1.	Compile the C Program:
+Open a terminal and navigate to the directory containing WildlifeMonitoringForestFirePrevention.c. Compile the program using:
+
+gcc WildlifeMonitoringForestFirePrevention.c -o wildlife_monitoring
+2.	Run the C Program:
+Execute the compiled program:
+
+./wildlife_monitoring
+This will start a simulation that writes sensor data to a file named sensor_data.txt.
+Step 2: Run the Python Simulation Script
+1.	Run the Python Script:
+Open another terminal window and navigate to the same directory. Run the Python script using:
+python simulation.py
+This script will read data from sensor_data.txt and display a real-time plot of animal movements and fire locations.
+Expected Output
+•	The C program will print simulation steps, fire detections, and animal movements to the console.
+•	The Python script will display a graphical interface showing the positions of animals (blue dots) and fires (red crosses) on a grid.
+Troubleshooting Tips
+•	Ensure that both the C program and Python script are running simultaneously to see real-time updates in the plot.
+•	If the Python script does not update, check if the sensor_data.txt file is being updated by the C program.
+•	Adjust the simulation duration or grid size in the C program as needed.
+By following these instructions, you should be able to run a simulation of the Wildlife and Fire Monitoring System using the provided code files.
+
